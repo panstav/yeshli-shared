@@ -34,7 +34,7 @@ export const themes = [
 			{
 				type: "portfolio",
 				prefix: "portfolio",
-				componentPath: "pages/Portfolio/index.js"
+				componentPath: "pages/PortfolioPost/index.js"
 			}
 		]
 	}
