@@ -30,6 +30,11 @@ export const themes = [
 				type: "tag",
 				prefix: "blog/tag",
 				componentPath: "pages/Tag/index.js"
+			},
+			{
+				type: "portfolio",
+				prefix: "portfolio",
+				componentPath: "pages/Portfolio/index.js"
 			}
 		]
 	}
