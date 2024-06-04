@@ -1,7 +1,7 @@
 import { describe, it } from "node:test";
 import assert from "node:assert";
 
-import { roles, themes } from './index.js';
+import { roles, themes } from './src/index.js';
 
 describe('roles', () => {
 

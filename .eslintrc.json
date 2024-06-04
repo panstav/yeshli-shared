@@ -11,7 +11,8 @@
 	},
 	"ignorePatterns": [
 		"/.vscode",
-		"/node_modules"
+		"/node_modules",
+		"/dist"
 	],
 	"rules": {
 		"indent": [
