@@ -3,9 +3,10 @@
   "version": "1.1.0-0",
   "description": "",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "npm run lint && node --test",
+    "build": "babel src/index.js -d dist",
+    "test": "npm run build && npm run lint && node --test",
     "lint": "node_modules/.bin/eslint .",
     "preversion": "npm test"
   },
