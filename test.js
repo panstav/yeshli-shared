@@ -1,7 +1,7 @@
-import { describe, it } from "node:test";
-import assert from "node:assert";
+const { describe, it } = require("node:test");
+const assert = require("node:assert");
 
-import { roles, themes } from './src/index.js';
+const { roles, themes } = require('./dist/index.js');
 
 describe('roles', () => {
 

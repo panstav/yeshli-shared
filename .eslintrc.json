@@ -1,14 +1,16 @@
 {
 	"env": {
-		"es2021": true
+		"commonjs": true,
+		"es2020": true,
+		"node": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 11,
+		"sourceType": "commonjs"
 	},
 	"extends": [
 		"eslint:recommended"
 	],
-	"parserOptions": {
-		"ecmaVersion": 11,
-		"sourceType": "module"
-	},
 	"ignorePatterns": [
 		"/.vscode",
 		"/node_modules",
