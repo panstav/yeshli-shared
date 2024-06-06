@@ -1,7 +1,7 @@
 const { describe, it } = require("node:test");
 const assert = require("node:assert");
 
-const { roles, themes } = require('./dist/index.js');
+const { roles, themes } = require('./index.js');
 
 describe('roles', () => {
 

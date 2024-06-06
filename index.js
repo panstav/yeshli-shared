@@ -1,4 +1,4 @@
-export const roles = {
+module.exports.roles = {
 	order: ['GUEST', 'TRIAL', 'MEMBER', 'EDITOR', 'ADMIN'],
 	GUEST: 'GUEST',
 	TRIAL: 'TRIAL',
@@ -8,7 +8,7 @@ export const roles = {
 };
 
 // cspell:ignore alon, elyse
-export const themes = [
+module.exports.themes = [
 	{
 		themeName: "alon-01",
 		parentDomain: "yesh.li"
@@ -40,6 +40,6 @@ export const themes = [
 	}
 ];
 
-export const misc = {
+module.exports.misc = {
 	yeshLiHomepagePurchaseId: 'purchase',
 };
