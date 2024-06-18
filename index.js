@@ -7,6 +7,19 @@ module.exports.roles = {
 	ADMIN: 'ADMIN'
 };
 
+module.exports.domains = [
+	{
+		domain: "india4wd.tours",
+		collectionPages: [
+			{
+				type: "destination",
+				prefix: "destination",
+				componentPath: "pages/Destination/index.js"
+			}
+		]
+	}
+];
+
 // cspell:ignore alon, elyse
 module.exports.themes = [
 	{
