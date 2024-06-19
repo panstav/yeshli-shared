@@ -31,6 +31,10 @@ module.exports.themes = [
 		parentDomain: "yesh.li"
 	},
 	{
+		themeName: "ayelet-01",
+		parentDomain: "yesh.li"
+	},
+	{
 		themeName: "tom-01",
 		parentDomain: "yesh.li-eng",
 		collectionPages: [
