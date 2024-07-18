@@ -15,6 +15,11 @@ module.exports.domains = [
 				type: "destination",
 				prefix: "destination",
 				componentPath: "pages/Destination/index.js"
+			},
+			{
+				type: "route",
+				prefix: "route",
+				componentPath: "pages/Route/index.js"
 			}
 		]
 	}
