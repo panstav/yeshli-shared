@@ -17,11 +17,6 @@ module.exports.domains = [
 				componentPath: "pages/Destination/index.js"
 			},
 			{
-				type: "route",
-				prefix: "route",
-				componentPath: "pages/Route/index.js"
-			},
-			{
 				type: "guide",
 				prefix: "guide",
 				componentPath: "pages/Guide/index.js"
@@ -32,6 +27,17 @@ module.exports.domains = [
 
 // cspell:ignore alon, elyse
 module.exports.themes = [
+	{
+		themeName: "4wd-agency-01",
+		parentDomain: "india4wd.tours",
+		collectionPages: [
+			{
+				type: "route",
+				prefix: "route",
+				componentPath: "pages/Route/index.js"
+			}
+		]
+	},
 	{
 		themeName: "alon-01",
 		parentDomain: "yesh.li"
