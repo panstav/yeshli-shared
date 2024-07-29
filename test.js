@@ -21,7 +21,7 @@ describe('roles', () => {
 describe('themes', () => {
 
 	it('should have all themes contain all required fields', () => {
-		const requiredFields = ['themeName', 'parentDomain'];
+		const requiredFields = ['themeName', 'parentDomain', 'domainsDirectories'];
 		themes.forEach(theme => {
 			requiredFields.forEach(field => {
 				assert(theme[field]);

@@ -14,12 +14,7 @@ module.exports.domains = [
 			{
 				type: "destination",
 				prefix: "destination",
-				componentPath: "pages/Destination/index.js"
-			},
-			{
-				type: "guide",
-				prefix: "guide",
-				componentPath: "pages/Guide/index.js"
+				componentPath: "Destination/index.js"
 			}
 		]
 	}
@@ -28,46 +23,62 @@ module.exports.domains = [
 // cspell:ignore alon, elyse
 module.exports.themes = [
 	{
-		themeName: "4wd-agency-01",
-		parentDomain: "india4wd.tours",
-		collectionPages: [
-			{
-				type: "route",
-				prefix: "route",
-				componentPath: "pages/Route/index.js"
-			}
-		]
-	},
-	{
 		themeName: "alon-01",
-		parentDomain: "yesh.li"
+		parentDomain: "yesh.li",
+		domainsDirectories: [
+			'yeshli'
+		],
 	},
 	{
 		themeName: "elyse-01",
-		parentDomain: "yesh.li"
+		parentDomain: "yesh.li",
+		domainsDirectories: [
+			'yeshli'
+		],
 	},
 	{
 		themeName: "ayelet-01",
-		parentDomain: "yesh.li"
+		parentDomain: "yesh.li",
+		domainsDirectories: [
+			'yeshli'
+		]
 	},
 	{
 		themeName: "tom-01",
 		parentDomain: "yesh.li-eng",
+		domainsDirectories: [
+			'yeshli',
+			'yeshli-eng'
+		],
 		collectionPages: [
 			{
 				type: "post",
 				prefix: "blog",
-				componentPath: "pages/Post/index.js"
+				componentPath: "Post/index.js"
 			},
 			{
 				type: "tag",
 				prefix: "blog/tag",
-				componentPath: "pages/Tag/index.js"
+				componentPath: "Tag/index.js"
 			},
 			{
 				type: "portfolio",
 				prefix: "portfolio",
-				componentPath: "pages/PortfolioPost/index.js"
+				componentPath: "PortfolioPost/index.js"
+			}
+		]
+	},
+	{
+		themeName: "4wd-agency-01",
+		parentDomain: "india4wd.tours",
+		domainsDirectories: [
+			'india4wdtours'
+		],
+		collectionPages: [
+			{
+				type: "destination",
+				prefix: "destination",
+				componentPath: "Destination/index.js"
 			}
 		]
 	}
