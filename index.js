@@ -76,9 +76,9 @@ module.exports.themes = [
 		],
 		collectionPages: [
 			{
-				type: "destination",
-				prefix: "destination",
-				componentPath: "Destination/index.js"
+				type: "route",
+				prefix: "route",
+				componentPath: "Route/index.js"
 			}
 		]
 	}
