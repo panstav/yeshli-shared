@@ -41,4 +41,10 @@ describe('themes', () => {
 		});
 	});
 
+	it('should have a name that does not start with a number', () => {
+		themes.forEach(theme => {
+			assert(!theme.themeName.match(/^\d/));
+		});
+	});
+
 });

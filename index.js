@@ -69,7 +69,7 @@ module.exports.themes = [
 		]
 	},
 	{
-		themeName: "4wd-agency-01",
+		themeName: "amit-01",
 		parentDomain: "india4wd.tours",
 		domainsDirectories: [
 			'india4wdtours'
